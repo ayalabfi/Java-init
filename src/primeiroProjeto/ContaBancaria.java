@@ -66,7 +66,7 @@ public class ContaBancaria {
 		case 3: System.out.println("Digite o valor que deseja transferir");
 		int transferencia = numero.nextInt();
 		if (saldo >= transferencia) {
-		saldo += -transferencia;
+		saldo -= transferencia;
 		System.out.println("O seu saldo é: " + saldo);
 		}
 		else
